@@ -32,4 +32,4 @@
 
 |imgHO.sh|imgHO2.sh|
 |-|-|
-|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo3.jpg"/>|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo4.jpg"/>|
+|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo3.jpg"/>|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo4.png"/>|
