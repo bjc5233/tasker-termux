@@ -37,6 +37,73 @@
 			<tm>-1</tm>
 		</Time>
 	</Profile>
+	<Profile sr="prof245" ve="2">
+		<cdate>1570068363513</cdate>
+		<edate>1570069548934</edate>
+		<id>245</id>
+		<mid0>248</mid0>
+		<nme>share-termuxRectBlur</nme>
+		<Event sr="con0" ve="2">
+			<code>580953799</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Command: termuxRectBlur
+Sender: all (regex) (case ins) (exact)
+Subject: all (regex) (case ins) (exact)
+Text: all (regex) (case ins) (exact)
+Image: all (regex) (case ins) (exact)</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<configcaseinsensitiveimage>true</configcaseinsensitiveimage>
+					<configcaseinsensitiveimage-type>java.lang.Boolean</configcaseinsensitiveimage-type>
+					<configcaseinsensitivesender>true</configcaseinsensitivesender>
+					<configcaseinsensitivesender-type>java.lang.Boolean</configcaseinsensitivesender-type>
+					<configcaseinsensitivesub>true</configcaseinsensitivesub>
+					<configcaseinsensitivesub-type>java.lang.Boolean</configcaseinsensitivesub-type>
+					<configcaseinsensitivetext>true</configcaseinsensitivetext>
+					<configcaseinsensitivetext-type>java.lang.Boolean</configcaseinsensitivetext-type>
+					<configcommand>termuxRectBlur</configcommand>
+					<configcommand-type>java.lang.String</configcommand-type>
+					<configexactimage>true</configexactimage>
+					<configexactimage-type>java.lang.Boolean</configexactimage-type>
+					<configexactsender>true</configexactsender>
+					<configexactsender-type>java.lang.Boolean</configexactsender-type>
+					<configexactsub>true</configexactsub>
+					<configexactsub-type>java.lang.Boolean</configexactsub-type>
+					<configexacttext>true</configexacttext>
+					<configexacttext-type>java.lang.Boolean</configexacttext-type>
+					<configimage>&lt;null&gt;</configimage>
+					<configimage-type>java.lang.String</configimage-type>
+					<configregeximage>true</configregeximage>
+					<configregeximage-type>java.lang.Boolean</configregeximage-type>
+					<configregexsender>true</configregexsender>
+					<configregexsender-type>java.lang.Boolean</configregexsender-type>
+					<configregexsub>true</configregexsub>
+					<configregexsub-type>java.lang.Boolean</configregexsub-type>
+					<configregextext>true</configregextext>
+					<configregextext-type>java.lang.Boolean</configregextext-type>
+					<configsender>&lt;null&gt;</configsender>
+					<configsender-type>java.lang.String</configsender-type>
+					<configsubject>&lt;null&gt;</configsubject>
+					<configsubject-type>java.lang.String</configsubject-type>
+					<configtext>&lt;null&gt;</configtext>
+					<configtext-type>java.lang.String</configtext-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>configcommand plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>710ec44b-0fb7-4722-9b59-f99d7d7914a8</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoshare.intent.IntentReceiveShareEvent</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoshare</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoshare.activity.ActivityConfigReceiveShareEvent</Str>
+		</Event>
+	</Profile>
 	<Profile sr="prof246" ve="2">
 		<cdate>1567683546739</cdate>
 		<clp>true</clp>
@@ -57,9 +124,8 @@
 	<Profile sr="prof255" ve="2">
 		<cdate>1567806953977</cdate>
 		<clp>true</clp>
-		<edate>1569864849838</edate>
+		<edate>1569974193861</edate>
 		<id>255</id>
-		<limit>true</limit>
 		<mid0>256</mid0>
 		<nme>termux切换壁纸时</nme>
 		<Event sr="con0" ve="2">
@@ -69,12 +135,12 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1567837916124</cdate>
 		<name>termux</name>
-		<pids>246,239,255,244</pids>
-		<tids>257,248,256,251,21,259,254,80,240,13,243,253</tids>
+		<pids>246,244,255,239,245</pids>
+		<tids>240,254,13,21,256,248,243,264,80,259,257,251,253</tids>
 	</Project>
 	<Task sr="task13">
 		<cdate>1483667888160</cdate>
-		<edate>1569441704808</edate>
+		<edate>1570681750323</edate>
 		<id>13</id>
 		<nme>girls</nme>
 		<Action sr="act0" ve="7">
@@ -179,7 +245,7 @@
 	</Task>
 	<Task sr="task21">
 		<cdate>1548175478285</cdate>
-		<edate>1569936345688</edate>
+		<edate>1570682173508</edate>
 		<id>21</id>
 		<nme>termuxPyWebServer</nme>
 		<pri>100</pri>
@@ -217,7 +283,7 @@ flask run -h '0.0.0.0' -p 10000</Str>
 	</Task>
 	<Task sr="task240">
 		<cdate>1548175478285</cdate>
-		<edate>1569936334954</edate>
+		<edate>1569937808955</edate>
 		<id>240</id>
 		<nme>termuxDominantColor</nme>
 		<pri>7</pri>
@@ -258,7 +324,7 @@ bash %TERMUX_BASE_PATH/imgDominantColor.sh %img_path</Str>
 	</Task>
 	<Task sr="task243">
 		<cdate>1548175478285</cdate>
-		<edate>1569080323937</edate>
+		<edate>1570681329506</edate>
 		<id>243</id>
 		<nme>termuxHO</nme>
 		<pri>7</pri>
@@ -354,21 +420,16 @@ bash %TERMUX_BASE_PATH/imgHO.sh %img_path_ratio_crop</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>300</code>
-			<label>为脚本增加图片输出路径参数
-增加获取主色调的脚本文件</label>
-		</Action>
 		<Img sr="icn" ve="2">
 			<nme>cust_transparent</nme>
 		</Img>
 	</Task>
 	<Task sr="task248">
 		<cdate>1548175478285</cdate>
-		<edate>1569936140870</edate>
+		<edate>1570070724306</edate>
 		<id>248</id>
 		<nme>termuxRectBlur</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">termuxComm</Str>
@@ -381,6 +442,16 @@ bash %TERMUX_BASE_PATH/imgHO.sh %img_path_ratio_crop</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%asfile1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">comm-random-img</Str>
 			<Int sr="arg1">
@@ -391,7 +462,10 @@ bash %TERMUX_BASE_PATH/imgHO.sh %img_path_ratio_crop</Str>
 			<Str sr="arg4" ve="3">%img_path</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>123</code>
 			<label>imgRatioCrop.sh</label>
 			<Str sr="arg0" ve="3">export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
@@ -406,7 +480,7 @@ bash %TERMUX_BASE_PATH/imgRatioCrop.sh %img_path</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act13" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">1</Str>
 			<Int sr="arg1" val="1"/>
@@ -418,7 +492,7 @@ bash %TERMUX_BASE_PATH/imgRatioCrop.sh %img_path</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act14" ve="7">
 			<code>123</code>
 			<label>imgRectBlur.sh</label>
 			<Str sr="arg0" ve="3">export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
@@ -433,7 +507,7 @@ bash %TERMUX_BASE_PATH/imgRectBlur.sh -b100 -r 20 -y0.875 -h0.24 -w0.7 %img_path
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act15" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">1</Str>
 			<Int sr="arg1" val="1"/>
@@ -445,7 +519,7 @@ bash %TERMUX_BASE_PATH/imgRectBlur.sh -b100 -r 20 -y0.875 -h0.24 -w0.7 %img_path
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<label>当前壁纸原地址</label>
 			<Str sr="arg0" ve="3">%TERMUX_IMG_PATH</Str>
@@ -454,12 +528,61 @@ bash %TERMUX_BASE_PATH/imgRectBlur.sh -b100 -r 20 -y0.875 -h0.24 -w0.7 %img_path
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act17" ve="7">
 			<code>109</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">%img_path_out</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%img_path</Str>
+			<Str sr="arg1" ve="3">%asfile1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var is_img_ext = 0;
+if(/.(gif|jpg|jpeg|png|GIF|JPG|JPEG|PNG)$/.test(img_path))
+        is_img_ext = 1;
+flash(is_img_ext)</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%is_img_ext</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%is_img_ext</lhs>
+					<op>1</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">请选择图片文件</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>cust_transparent</nme>
@@ -467,7 +590,7 @@ bash %TERMUX_BASE_PATH/imgRectBlur.sh -b100 -r 20 -y0.875 -h0.24 -w0.7 %img_path
 	</Task>
 	<Task sr="task251">
 		<cdate>1548175478285</cdate>
-		<edate>1569936180868</edate>
+		<edate>1569937987033</edate>
 		<id>251</id>
 		<nme>comm-random-img</nme>
 		<pri>100</pri>
@@ -570,7 +693,7 @@ var imgs_path=strArray[Math.floor(Math.random()*strArray.length)];</Str>
 	</Task>
 	<Task sr="task253">
 		<cdate>1548175478285</cdate>
-		<edate>1569080325926</edate>
+		<edate>1569937895410</edate>
 		<id>253</id>
 		<nme>termuxBlur</nme>
 		<pri>7</pri>
@@ -841,7 +964,7 @@ bash %TERMUX_BASE_PATH/imgBlur.sh %img_path_ratio_crop</Str>
 	</Task>
 	<Task sr="task257">
 		<cdate>1548175478285</cdate>
-		<edate>1569407410012</edate>
+		<edate>1569937876931</edate>
 		<id>257</id>
 		<nme>termuxComm</nme>
 		<pri>100</pri>
@@ -928,6 +1051,108 @@ export HOME=/data/data/com.termux/files/home
 
 
 bash %TERMUX_BASE_PATH/imgParallelogram.sh  %img_path_ratio_crop</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%img_path_out</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">1</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%img_path_out</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<label>当前壁纸原地址</label>
+			<Str sr="arg0" ve="3">%TERMUX_IMG_PATH</Str>
+			<Str sr="arg1" ve="3">%img_path</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>109</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%img_path_out</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>cust_transparent</nme>
+		</Img>
+	</Task>
+	<Task sr="task264">
+		<cdate>1548175478285</cdate>
+		<edate>1570681682111</edate>
+		<id>264</id>
+		<nme>termuxHO2</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">termuxComm</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">comm-random-img</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%img_path</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>123</code>
+			<label>imgRatioCrop.sh</label>
+			<Str sr="arg0" ve="3">export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
+export PATH=/data/data/com.termux/files/usr/bin
+export HOME=/data/data/com.termux/files/home
+
+
+bash %TERMUX_BASE_PATH/imgRatioCrop.sh %img_path</Str>
+			<Int sr="arg1" val="40"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%img_path_ratio_crop</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">1</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%img_path_ratio_crop</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>123</code>
+			<label>imgHO2.sh</label>
+			<Str sr="arg0" ve="3">export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
+export PATH=/data/data/com.termux/files/usr/bin
+export HOME=/data/data/com.termux/files/home
+
+
+bash %TERMUX_BASE_PATH/imgHO2.sh %img_path_ratio_crop</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
 			<Str sr="arg3" ve="3">%img_path_out</Str>

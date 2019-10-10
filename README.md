@@ -17,7 +17,8 @@
 |-|-|
 |imgBlur.sh|整体模糊|
 |imgDominantColor.sh|图片主色提取|
-|imgHO.sh|氢壁纸|
+|imgHO.sh|氢壁纸(底图为模糊后的原图)|
+|imgHO2.sh|氢壁纸(底图为原图主色调)|
 |imgParallelogram.sh|除特定倾斜四边形区域外模糊处理<br>(在ubuntu上执行成功，但在魅族16上执行失败，可能某些系统函数不支持)|
 |imgRatioCrop.sh|按分辨率裁剪|
 |imgRectBlur.sh|特定区域模糊|
@@ -25,6 +26,10 @@
 
 
 ### 演示
-|imgRectBlur.sh|imgParallelogram.sh|imgHO.sh|
-|-|-|-|
-|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo1.png"/>|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo2.jpg"/>|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo3.jpg"/>|
+|imgRectBlur.sh|imgParallelogram.sh|
+|-|-|
+|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo1.png"/>|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo2.jpg"/>|
+
+|imgHO.sh|imgHO2.sh|
+|-|-|
+|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo3.jpg"/>|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo4.jpg"/>|

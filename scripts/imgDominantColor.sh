@@ -13,7 +13,7 @@
 #   weather    Shanghai Cloudy 28℃
 # 备注
 #   bash /sdcard/software_me/tasker/termux/imgDominantColor.sh /sdcard/software_me/壁纸/2017-08-07.jpg
-#   bash         /mnt/c/path/tasker/termux/imgDominantColor.sh /mnt/c/path/tasker/termux/1.jpg
+#   bash         /mnt/c/path/tasker/termux/scripts/imgHO.sh /mnt/c/path/tasker/termux/scripts/1.jpg
 # ========================= init =========================
 format=0
 while getopts ":f:" opt; do
@@ -38,16 +38,18 @@ rgbColor=${rgbColor#*srgb(}
 rgbColor=${rgbColor%%)*}
 if [ $format -eq 0 ]; then
     echo "$rgbColor"
+    exit 0
+fi
+
+rgbColorArray=(${rgbColor//,/ })
+rgbColorHex=`echo "obase=16;${rgbColorArray[0]}"|bc``echo "obase=16;${rgbColorArray[1]}"|bc``echo "obase=16;${rgbColorArray[2]}"|bc`
+if [ $format -eq 1 ]; then
+    # 16进制格式 #ddddff
+    echo "$rgbColorHex"
 elif [ $format -eq 2 ]; then
     # 原FFFFFF->-1; 原000000->-16777216
     # 目前已知nova配置文件中颜色字段[folder_window_config]使用该方式
-    rgbColorArray=(${rgbColor//,/ })
-    rgbColorHex=`echo "obase=16;${rgbColorArray[0]}"|bc``echo "obase=16;${rgbColorArray[1]}"|bc``echo "obase=16;${rgbColorArray[2]}"|bc`
     rgbColor2=`echo "ibase=16;$rgbColorHex-FFFFFF-1"|bc`
     echo "$rgbColor2"
-elif [ $format -eq 1 ]; then
-    rgbColorArray=(${rgbColor//,/ })
-    rgbColorHex=`echo "obase=16;${rgbColorArray[0]}"|bc``echo "obase=16;${rgbColorArray[1]}"|bc``echo "obase=16;${rgbColorArray[2]}"|bc`
-    echo "$rgbColorHex"
 fi
 #========================= process =========================

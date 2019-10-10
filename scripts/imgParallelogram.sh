@@ -17,7 +17,7 @@
 #   weather    Shanghai Sunny 31℃
 # 备注
 #   bash /sdcard/software_me/tasker/termux/imgParallelogram.sh /sdcard/software_me/壁纸/2017-08-07.jpg
-#   bash         /mnt/c/path/tasker/termux/imgParallelogram.sh /mnt/c/path/tasker/termux/1.jpg
+#   bash         /mnt/c/path/tasker/termux/scripts/imgParallelogram.sh /mnt/c/path/tasker/termux/scripts/1.jpg
 # TODO
 #   参数范围检测
 # ========================= init =========================

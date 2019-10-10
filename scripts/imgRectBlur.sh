@@ -18,7 +18,7 @@
 #   weather    Shanghai Cloudy 25℃
 # 备注
 #   bash /sdcard/software_me/tasker/termux/imgRectBlur.sh /sdcard/software_me/壁纸/2017-08-07.jpg
-#   bash         /mnt/c/path/tasker/termux/imgRectBlur.sh /mnt/c/path/tasker/termux/1.jpg
+#   bash         /mnt/c/path/tasker/termux/scripts/imgRectBlur.sh /mnt/c/path/tasker/termux/scripts/1.jpg
 # TODO
 #   参数范围检测
 # ========================= init =========================

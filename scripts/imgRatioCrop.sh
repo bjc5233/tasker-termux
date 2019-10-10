@@ -15,7 +15,7 @@
 #   weather    Shanghai Cloudy 24℃
 # 备注
 #   bash /sdcard/software_me/tasker/termux/imgRatioCrop.sh /sdcard/software_me/壁纸/2017-08-07.jpg
-#   bash         /mnt/c/path/tasker/termux/imgRatioCrop.sh /mnt/c/path/tasker/termux/1.jpg
+#   bash         /mnt/c/path/tasker/termux/scripts/imgRatioCrop.sh /mnt/c/path/tasker/termux/scripts/1.jpg
 # TODO
 #   参数范围检测
 # ========================= init =========================

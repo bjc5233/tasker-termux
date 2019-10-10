@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 说明
-#   描述
+#   启动web服务器
 # 参考
 #   https://flask.palletsprojects.com/en/1.1.x/
 #   https://blog.csdn.net/u014793102/article/details/80372815
