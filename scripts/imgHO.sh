@@ -3,6 +3,7 @@
 #   图片处理, 将图片转为氢壁纸风格
 # 参考
 #   https://imagemagick.org/script/command-line-options.php
+#   http://www.fmwconcepts.com/imagemagick/surroundblur/index.php
 # 参数
 #   [-x coverCentreXPercent] [-y coverCentreYPercent] [-w coverWidthPercent] [-h coverHeightPercent] [-b blurNum] [-o outPath] imgPath
 #       coverCentreXPercent - cover中心点在水平方向位置(百分比); 值为coverWidthPercent/2时, cover处于左边界; 值为1-coverWidthPercent/2时, cover处于右边界
@@ -45,6 +46,7 @@ shift $(($OPTIND - 1))
 if [ -n "$1" ] && [ -r "$1" ]; then     # 变量存在且文件可读
     imgPath="$1"
 else
+    echo "img not exist"
     exit 1
 fi
 imgResult=(`identify -format "%w %h" "$imgPath"`)

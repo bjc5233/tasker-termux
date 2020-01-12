@@ -3,7 +3,7 @@
 
 
 ### 使用方法
-1. 安装tasker、termux
+1. 安卓机安装tasker、termux
 2. 在termux中安装imagemagick
 3. 在tasker中，导入tasker项目[termux.prj.xml]；导入项目使用到的公共任务[comm_random_img.tsk.xml]
 4. 在tasker中，打开任务[termuxComm]修改全局变量[%TERMUX_BASE_PATH]为自己的路径，并将所有脚本文件[scripts\*.*]放入这个路径
@@ -22,6 +22,7 @@
 |imgParallelogram.sh|除特定倾斜四边形区域外模糊处理<br>(在ubuntu上执行成功，但在魅族16上执行失败，可能某些系统函数不支持)|
 |imgRatioCrop.sh|按分辨率裁剪|
 |imgRectBlur.sh|特定区域模糊|
+|imgColorPalette.sh|生成带色卡的图片|
 |pyWebServer.py|启动termux中python-flask的Web服务器|
 
 
@@ -33,3 +34,7 @@
 |imgHO.sh|imgHO2.sh|
 |-|-|
 |<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo3.jpg"/>|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo4.png"/>|
+
+|imgColorPalette.sh||
+|-|-|
+|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo5.jpg"/>||

@@ -42,6 +42,7 @@ shift $(($OPTIND - 1))
 if [ -n "$1" ] && [ -r "$1" ]; then     # 变量存在且文件可读
     imgPath="$1"
 else
+    echo "img not exist"
     exit 1
 fi
 imgResult=(`identify -format "%w %h" "$imgPath"`)

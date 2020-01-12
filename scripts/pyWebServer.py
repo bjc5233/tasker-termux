@@ -28,6 +28,11 @@ app = Flask(__name__)
 def index():
     return "Hello, World!"
     
+#用于检查连通性
+@app.route('/ping', methods=['GET'])
+def setPCClipFromMobile():
+    return "pong"
+
   
 # ahk[httpClient] -> termux -> python[WebServer] -> tasker[remoteCtlPC-setClip] -> ahk[httpServer] -> ahk[设置clip值]
 @app.route('/clip', methods=['GET'])
