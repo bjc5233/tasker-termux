@@ -37,4 +37,4 @@
 
 |imgColorPalette.sh||
 |-|-|
-|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo5.jpg"/>||
+|<img src="https://github.com/bjc5233/tasker-termux/raw/master/resources/demo5.png"/>||
